@@ -1,0 +1,54 @@
+.sm{
+    width: 2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    background-color: var(--orange500);
+}
+.sm>p{
+    color:var(--white);
+    font-size: var(--textXs);
+}
+.md{
+    width: 3.2rem;
+    height:3.2rem;
+    border-radius: 50%;
+    background-color: var(--orange500);
+}
+.md>p{
+    color:var(--white);
+    font-size: var(--small);
+}
+.lg{
+    width: 4rem;
+    height:4rem;
+    border-radius: 50%;
+    background-color: var(--orange500);
+}
+.lg>p{
+    color:var(--white);
+    font-size: var(--body2);
+}
+.xl{
+    width: 8rem;
+    height:8rem;
+    border-radius: 50%;
+    background-color: var(--orange500);
+}
+.xl>p{
+    color:var(--white);
+    font-size: var(--h2);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+

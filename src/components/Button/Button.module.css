@@ -1,0 +1,21 @@
+.button{
+    background-color: var(--celeste600);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: var(--20)
+}
+.containerButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--8) var(--16);
+    gap:var(--8) ;
+    /* border-radius: 2rem */
+}
+.textButton{
+    font-size:var(--body1);
+    font-weight: 700;
+    line-height: 2.4rem;
+    /* font-family: 'Satoshi-Variable'; */
+}
